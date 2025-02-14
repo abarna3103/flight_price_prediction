@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Public/GUVI/code/flight%20price%20prediction/mlruns/715130002430234444/7541f5d9b8cf4da6a81ae7af119c254f/artifacts
+end_time: 1739524954367
+entry_point_name: ''
+experiment_id: '715130002430234444'
+lifecycle_stage: active
+run_id: 7541f5d9b8cf4da6a81ae7af119c254f
+run_name: GradientBoostingClassifier
+run_uuid: 7541f5d9b8cf4da6a81ae7af119c254f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739524931091
+status: 3
+tags: []
+user_id: MP KUMAR

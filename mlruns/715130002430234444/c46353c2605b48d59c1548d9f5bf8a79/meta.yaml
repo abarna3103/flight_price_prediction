@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Public/GUVI/code/flight%20price%20prediction/mlruns/715130002430234444/c46353c2605b48d59c1548d9f5bf8a79/artifacts
+end_time: 1739524931074
+entry_point_name: ''
+experiment_id: '715130002430234444'
+lifecycle_stage: active
+run_id: c46353c2605b48d59c1548d9f5bf8a79
+run_name: AdaBoostClassifier
+run_uuid: c46353c2605b48d59c1548d9f5bf8a79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739524918807
+status: 3
+tags: []
+user_id: MP KUMAR

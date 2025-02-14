@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Public/GUVI/code/flight%20price%20prediction/mlruns/715130002430234444/8b538a3bf1f941e0b8cd7fbde5b64aff/artifacts
+end_time: 1739524899992
+entry_point_name: ''
+experiment_id: '715130002430234444'
+lifecycle_stage: active
+run_id: 8b538a3bf1f941e0b8cd7fbde5b64aff
+run_name: DecisionTreeClassifier
+run_uuid: 8b538a3bf1f941e0b8cd7fbde5b64aff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739524890767
+status: 3
+tags: []
+user_id: MP KUMAR
