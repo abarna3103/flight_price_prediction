@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import datetime
 
+
 def load_data():
     try:
         price_df = pd.read_csv("price_pred.csv")
