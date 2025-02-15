@@ -53,10 +53,19 @@ def main():
         
         with col2:
             date = st.date_input("Date of Journey", min_value=datetime.date(2019, 1, 1))
-            dep_time = st.time_input("Departure Time")
-            arr_time = st.time_input("Arrival Time")
-            duration = (datetime.datetime.combine(datetime.date.today(), arr_time) -
-                        datetime.datetime.combine(datetime.date.today(), dep_time)).seconds // 60
+            times = pd.date_range("00:00", "23:45", freq="15min").strftime("%H:%M").tolist()
+            dep_time_str = st.selectbox("Departure Time", options=times)
+            arr_time_str = st.selectbox("Arrival Time", options=times)
+            dep_time = datetime.datetime.strptime(dep_time_str, "%H:%M").time()
+            arr_time = datetime.datetime.strptime(arr_time_str, "%H:%M").time()
+
+            # Calculate duration in minutes
+            duration = (datetime.datetime.combine(datetime.date.today(), arr_time) - 
+            datetime.datetime.combine(datetime.date.today(), dep_time)).seconds // 60
+
+            st.write(f"Selected Departure Time: {dep_time}")
+            st.write(f"Selected Arrival Time: {arr_time}")
+            st.write(f"Duration: {duration} minutes")
         
         if st.button("Predict Price"):
             try:
