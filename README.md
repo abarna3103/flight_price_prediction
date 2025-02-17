@@ -1,5 +1,7 @@
 # Flight Price & Customer Satisfaction Prediction
 
+# https://flightpricepredictionandcustomerstatisfaction.streamlit.app/
+
 ## 🚀 Overview
 This project predicts **flight ticket prices** and **customer satisfaction levels** using **machine learning models**. It features an interactive **Streamlit web app** where users can input flight and customer details to get predictions.
 
@@ -15,6 +17,16 @@ This project predicts **flight ticket prices** and **customer satisfaction level
 - **User-Friendly Streamlit App** 🖥️
   - Interactive UI with dropdowns, sliders, and date-time pickers.
   - Real-time price and satisfaction predictions.
+
+## 📂 Project Structure
+├── price_pred.csv                 # Cleaned dataset for flight price prediction
+├── satisfication_pred.csv          # Cleaned dataset for customer satisfaction prediction
+├── data_cleaning_and_processing.ipynb  # Data preprocessing notebook      
+├── price_pred_app.py                    # Streamlit web application script
+├── requirements.txt                     # Required dependencies
+├── README.md                            # Project documentation
+└── .gitignore                            # Git ignore file
+```
 
 ## 📊 Machine Learning Models Used
 ### **Flight Price Prediction**
@@ -47,7 +59,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the Streamlit App
 ```sh
-streamlit run streamlit_app.py
+streamlit run price_pred_app.py
 ```
 
 ## 🎯 Usage
@@ -55,8 +67,10 @@ streamlit run streamlit_app.py
 - Select the **Customer Satisfaction Prediction** tab to enter passenger details.
 - Click **Predict** to get real-time results.
 
+## 🚀 Deployment
+This app is already deployed on streamlit cloud.
 
 
-
-
+---
+✨ **Developed with ❤️ by [Abarna venkat]** ✨
 
